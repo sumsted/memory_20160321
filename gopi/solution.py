@@ -7,14 +7,14 @@ Set robot_debug to False when you are ready to run your code on the robot.
 '''
 robot.robot_debug = False
 
-robot.robot_speed = 200
+robot.robot_speed = 150
 
-robot.forward(5.0)
 robot.forward(1.0)
-robot.left(1.5)
+robot.forward(1.0)
+robot.left(1.0)
 robot.right(1.0)
-robot.blink(1.0)
-robot.forward(4.5)
+robot.blink(10)
+robot.forward(1.0)
 
 #
 # robot.robot_speed = 125
