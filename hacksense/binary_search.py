@@ -1,8 +1,8 @@
 from guess import guess
 
 MIN = 0
-MAX = 9999
-MESSAGE = '!'
+MAX = 999
+MESSAGE = 'MEMPY!'
 
 
 def binary_search():
